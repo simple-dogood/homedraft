@@ -25,7 +25,7 @@ SECRET_KEY = '$-4f8_*ejp*op7o_^%-1wbbr*#%menpf)4#+&n35tbipltvi9&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['68.183.27.255']
 
 
 # Application definition
@@ -140,6 +140,6 @@ MEDIA_URL = '/media/'
 
 
 try:
-    from local_settings import *
+    from .local_settings import *
 except ImportError:
     pass

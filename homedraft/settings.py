@@ -89,16 +89,16 @@ WSGI_APPLICATION = 'homedraft.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'home_draft',
-        'USER': 'djangojazzon',
-        'PASSWORD': 'Franklin17762019',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'home_draft',
+#         'USER': 'djangojazzon',
+#         'PASSWORD': 'Franklin17762019',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Password validation
